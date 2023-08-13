@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>ورود</title>
+	<link rel="stylesheet" href="css/Login.css" type="text/css">
+        <link rel="icon" type="image/ico" href="img/logoIcon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+</head>
+
+<body>
+
+	<div class="t-menu">
+    
+     <div class='full-menu'>
+     	<img src="img/logo.png" height=65 width=65 class="logo">
+    	<nav>
+        	<ul>
+            <li class='signin'><a href="Login.html">ورود</a></li>
+            <li class='blog'><a href="#">وبلاگ</a></li>
+            <li class='home'><a href="website.html">خانه</a></li>
+            <li class='products'><a href="#">محصولات</a></li>
+            <li class='about'><a href="#">درباره ما</a></li>
+            <li class='contact'><a href="#">ارتباط با ما</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    	<div class='searchBar'>
+        <img class="search-icon" src="img/search-icon.png">	
+        	<div class="searchbox"><form>
+            	<input class='search-box' type="text" />
+            </form></div>
+        </div>
+      </div>
+
+    
+    <script>
+		
+		document.querySelector(".search-icon").addEventListener("click",
+		 function(){
+			 document.querySelector(".search-icon").classList.toggle("searching-icon");
+			 document.querySelector(".search-box").classList.toggle("searching-box");
+		 	}
+		);
+		
+	</script>
+    <div class='img_bak1'>
+      <img src="img/w.png" alt="Log in" class='img_bak'>
+      <div class="login">
+       <!-- <img src="img/logo.png" height=100 width=86 class="logo1">-->
+         <h1 class='h1_a'> ورود به کیهان پرداز</h1>
+         <p class="p23">         <svg xmlns="http://www.w3.org/2000/svg" style="	margin: -0px 0px 0px 0px;" viewBox="0 0 24 24" width="8.83" height="6.77"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z"/></svg>
+          برای استفاده از خدمات ما وارد حساب خود شوید
+          <svg xmlns="http://www.w3.org/2000/svg" style="	margin-right: 0px; margin-top: 20px;" viewBox="0 0 24 24" width="8.83" height="6.77"><path fill="none" d="M0 0h24v24H0z"/><path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z" /></svg>
+        </p>
+           <form action="Sign in.php" method="post">
+            <input type="text" name="u" placeholder="نام کاربری" required="required" class='input'/>
+            <input type="password" name="p" placeholder="رمزعبور" required="required" class='input1' />
+            <button type="submit"  style="	font-family: sans ; font-size: 16px ;   padding:5px;"  class="btn btn-primary btn-block btn-large" name=do-login><b>ورود</b></button>
+            <ul>
+            <div class="na11"><li class='home1'><a href="#" style="	font-family: sans;" > رمزعبورم را فراموش کردم </a></li></div>
+            <div class="na12"><li class='home2'><a href="#" style="	font-family: sans;" >ثبت نام</a></li></div>
+            </ul>
+          </form>
+        </div>
+       <div class="sli_sh">
+        
+
+         <div class="slideshow-container">
+
+          <div class="mySlides fade">
+           <img src="img/1.jpg" style="width:480px; height:474px;  box-shadow: 23px 19px 90px rgba(0, 0, 0, 0.035); border-radius: 13px 0px 0px 13px;">
+          </div>
+
+          <div class="mySlides fade">
+           <img src="img/2.jpg" style="width:480px; height:474px;  box-shadow: 23px 19px 90px rgba(0, 0, 0, 0.035); border-radius: 13px 0px 0px 13px;">
+          </div>
+
+          <div class="mySlides fade">
+           <img src="img/3.jpg" style="width:480px; height: 474px; box-shadow: 23px 19px 90px rgba(0, 0, 0, 0.035); border-radius: 13px 0px 0px 13px;">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+         </div>
+         <br>
+
+         <div style="text-align:center;  margin: -45px 0px 0px 00px;">
+         <span class="dot" onclick="currentSlide(1)"></span> 
+         <span class="dot" onclick="currentSlide(2)"></span> 
+         <span class="dot" onclick="currentSlide(3)"></span> 
+         </div>
+
+          <script>
+           var slideIndex = 1;
+           showSlides(slideIndex);
+
+           function plusSlides(n) {
+           showSlides(slideIndex += n);
+           }
+
+           function currentSlide(n) {
+           showSlides(slideIndex = n);
+           }
+
+           function showSlides(n) {
+           var i;
+           var slides = document.getElementsByClassName("mySlides");
+           var dots = document.getElementsByClassName("dot");
+           if (n > slides.length) {slideIndex = 1}    
+           if (n < 1) {slideIndex = slides.length}
+           for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";  
+           }
+           for (i = 0; i < dots.length; i++) {
+           dots[i].className = dots[i].className.replace(" active", "");
+           }
+           slides[slideIndex-1].style.display = "block";  
+           dots[slideIndex-1].className += " active";
+           }
+          </script>
+
+         </div>
+       </div>
+</body>
+</html>

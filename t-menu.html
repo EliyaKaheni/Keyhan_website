@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>t-menu</title>
+	<link rel="stylesheet" href="css/t-menu.css" type="text/css">
+        <link rel="icon" type="image/ico" href="img/logoIcon.ico">
+</head>
+
+<body>
+
+	<div class="t-menu">
+    
+     <div class='full-menu'>
+     	<img src="img/logo.png" height=65 width=65 class="logo">
+    	<nav>
+        	<ul>
+            <li class='signin'><a href="#">ورود</a></li>
+            <li class='blog'><a href="#">وبلاگ</a></li>
+            <li class='home'><a href="website.html">خانه</a></li>
+            <li class='products'><a href="#">محصولات</a></li>
+            <li class='about'><a href="#">درباره ما</a></li>
+            <li class='contact'><a href="#">ارتباط با ما</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    	<div class='searchBar'>
+        <img class="search-icon" src="img/search-icon.png">	
+        	<div class="searchbox"><form>
+            	<input class='search-box' type="text" />
+            </form></div>
+        </div>
+      </div>
+    
+    
+    
+    <script>
+		
+		document.querySelector(".search-icon").addEventListener("click",
+		 function(){
+			 document.querySelector(".search-icon").classList.toggle("searching-icon");
+			 document.querySelector(".search-box").classList.toggle("searching-box");
+		 	}
+		);
+		
+	</script>
+</body>
+</html>

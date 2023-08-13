@@ -1,0 +1,29 @@
+#header{
+	background-color: blue;
+	text-align : center;
+	height : 123px;
+	margin:10px
+} 
+#content{
+	background-color: yellow;
+	text-align : left;
+	height : 530px;
+	width : 78%;
+	float : left;
+	margin:10px
+}
+#navigator{
+	background-color: pink;
+	text-align : right;
+	height : 530px;
+	width : 18%;
+	float : right;
+	margin:10px
+}
+#footer{
+	background-color: gray;
+	text-align: right;
+	height: 50;
+	margin:10px;
+	clear: both
+}

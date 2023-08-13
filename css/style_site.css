@@ -1,0 +1,57 @@
+@font-face{
+	font-family:"JADIDB";
+	src:url("../font/JADIDB.ttf");
+}
+title{
+	font-size:"40"
+}
+body{
+	font-family:JADIDB;
+	margin:0;
+	direction:rtl;
+}
+header{
+	direction:rtl;
+	height: 200px;
+	background-color: #00cccc;
+	text-align: center;
+}
+nav{
+	background-color:#00b3b3;
+	text-align:right;
+	padding:10px;
+}
+a{
+	color:#FFFFFF;
+	margin: 5px;
+}
+section{
+	float:left;
+	background-color: #cccfff;
+	width:76%;
+	padding:20px;
+}
+aside{
+	
+	float:right;
+	background-color:#00b3b3;
+	width:20%
+}
+footer{
+	clear:both;
+	height:75px;
+	background-color:#00cccc;
+}
+article{
+	border:dashed 2px blue
+	
+}
+div{
+	background-color:#009999;
+	margin-bottom:5px;
+	border:1px solid #ffffff;
+	text-align:center;
+}
+img{
+	margin:15px
+}
